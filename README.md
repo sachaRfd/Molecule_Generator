@@ -6,8 +6,8 @@
 
 <div align="center">
   <img src="chem1.png" alt="Chem1" width="30%">
-  <img src="chem2.png" alt="Chem2" width="30%">
   <img src="chem3.png" alt="Chem3" width="30%">
+  <img src="chem2.png" alt="Chem2" width="30%">
 </div>
 
 ## Overview
