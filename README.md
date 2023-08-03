@@ -1,5 +1,7 @@
 # LSTM Molecule Generator
 
+#### Proof Of Concept with Notebook only
+
 ## Overview
 
 The LSTM Molecule Generator is a project aimed at utilizing Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory (LSTM) networks, to generate novel and theoretically feasible chemical compounds in SMILES (Simplified Molecular Input Line Entry System) format. SMILES is a widely used string-based representation of chemical structures.
@@ -33,10 +35,7 @@ The project aims to achieve the following outcomes:
 To replicate and contribute to this project, follow these steps:
 
 1. Download the SMILES data from [ZINC](http://files.docking.org/2D/) and save it in the appropriate data directory.
-2. Run the data preprocessing script to clean and prepare the data for training.
-3. Configure the LSTM model architecture by adjusting the hyperparameters in the provided notebook (`LSTM_Molecule_Generator.ipynb`).
-4. Train the LSTM model using the preprocessed data and monitor its performance through the training process.
-5. Generate new SMILES strings and chemical compounds using the trained model, varying the temperature settings for different levels of complexity.
+2. Configure the LSTM model architecture and generate new smiles strings within minutes in the provided notebook (`LSTM_Molecule_Generator.ipynb`) varying the temperature settings for different levels of complexity
 
 ## References
 
