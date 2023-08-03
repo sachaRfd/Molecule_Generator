@@ -1,8 +1,8 @@
-# LSTM Chemical Generator
+# LSTM Molecule Generator
 
 ## Overview
 
-The LSTM Chemical Generator is a project aimed at utilizing Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory (LSTM) networks, to generate novel and theoretically feasible chemical compounds in SMILES (Simplified Molecular Input Line Entry System) format. SMILES is a widely used string-based representation of chemical structures.
+The LSTM Molecule Generator is a project aimed at utilizing Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory (LSTM) networks, to generate novel and theoretically feasible chemical compounds in SMILES (Simplified Molecular Input Line Entry System) format. SMILES is a widely used string-based representation of chemical structures.
 
 The primary goal of this project is to train an LSTM-based model to learn the underlying patterns and relationships within chemical compounds and then generate new, diverse compounds that adhere to chemical validity. LSTMs have shown promising results in generating SMILES strings (as demonstrated in [this study](https://doi.org/10.1186/s13321-019-0393-0)), making them a suitable choice for this task.
 
@@ -34,7 +34,7 @@ To replicate and contribute to this project, follow these steps:
 
 1. Download the SMILES data from [ZINC](http://files.docking.org/2D/) and save it in the appropriate data directory.
 2. Run the data preprocessing script to clean and prepare the data for training.
-3. Configure the LSTM model architecture by adjusting the hyperparameters in the provided notebook (`LSTM_Chemical_Generator.ipynb`).
+3. Configure the LSTM model architecture by adjusting the hyperparameters in the provided notebook (`LSTM_Molecule_Generator.ipynb`).
 4. Train the LSTM model using the preprocessed data and monitor its performance through the training process.
 5. Generate new SMILES strings and chemical compounds using the trained model, varying the temperature settings for different levels of complexity.
 
@@ -43,4 +43,4 @@ To replicate and contribute to this project, follow these steps:
 - [Original LSTM SMILES Generation Study](https://doi.org/10.1186/s13321-019-0393-0)
 - [ZINC Database for Chemical Compounds](http://files.docking.org/2D/)
 
-Feel free to contribute, provide feedback, or explore new avenues for enhancing the LSTM Chemical Generator project!
+Feel free to contribute, provide feedback, or explore new avenues for enhancing the LSTM Molecule Generator project!
